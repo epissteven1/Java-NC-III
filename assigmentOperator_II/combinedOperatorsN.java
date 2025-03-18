@@ -1,4 +1,4 @@
-package assigmentOperatorII;
+package assigmentOperator_II;
 
 public class combinedOperatorsN {
     public static void main(String[] args) {

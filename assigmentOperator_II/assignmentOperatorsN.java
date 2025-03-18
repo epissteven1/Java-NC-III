@@ -1,4 +1,4 @@
-package assigmentOperatorII;
+package assigmentOperator_II;
 
 /**
  * This program demonstrates the use of assignment operators in Java.

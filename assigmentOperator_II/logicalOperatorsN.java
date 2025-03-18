@@ -1,4 +1,4 @@
-package assigmentOperatorII;
+package assigmentOperator_II;
 
 /**
  * This class demonstrates the use of logical operators in Java.
