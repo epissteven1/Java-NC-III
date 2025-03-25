@@ -2,7 +2,7 @@ package loopAssignment;
 
 import java.util.Scanner;
 
-public class SumOfNumbersN {
+public class SumOfNumbersSNE {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
