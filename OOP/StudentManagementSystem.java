@@ -13,9 +13,18 @@ class Student {
         this.grade = grade;
         this.id = id;
     }
+
+    public Student(String name2, int[] grades) {
+        // TODO Auto-generated constructor stub
+    }
+
+    public void displayInfo() {
+
+        throw new UnsupportedOperationException("Unimplemented method 'displayInfo'");
+    }
 }
 
-public class StudentManagementSystem { 
+public class StudentManagementSystem {
     private static ArrayList<Student> students = new ArrayList<>();
     private static Scanner scanner = new Scanner(System.in);
 
