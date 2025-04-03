@@ -7,7 +7,7 @@ class Studens {
     String name;
     int[] grades;
 
-    Students(String name, int[] grades) {
+    void Students(String name, int[] grades) {
         this.name = name;
         this.grades = grades;
     }
