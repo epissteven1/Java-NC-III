@@ -1,5 +1,11 @@
 package IntermiateTopic;
 
+// This program demonstrates exception handling in Java.
+// It takes two numbers as input and performs division, handling potential exceptions.
+// It uses try-catch blocks to catch specific exceptions like ArithmeticException and InputMismatchException.
+// The program also includes a finally block to close the scanner resource.
+// The program is designed to be user-friendly and provides clear error messages for invalid inputs.
+
 import java.util.InputMismatchException;
 import java.util.Scanner;
 

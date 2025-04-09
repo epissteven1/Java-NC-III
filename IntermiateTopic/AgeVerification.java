@@ -1,5 +1,10 @@
 package IntermiateTopic;
 
+// This program demonstrates the use of a custom exception to enforce an age restriction for registration.
+// If the user is under 18, an AgeRestrictionException is thrown with a message indicating the restriction.
+// The exception is caught in the main method, and an error message is displayed to the user.
+// The program uses a Scanner to read user input and handle exceptions appropriately.
+// The custom exception class AgeRestrictionException extends the Exception class and provides a constructor to set the error message.
 import java.util.Scanner;
 
 class AgeRestrictionException extends Exception {

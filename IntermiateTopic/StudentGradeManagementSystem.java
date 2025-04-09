@@ -1,5 +1,13 @@
 package IntermiateTopic;
 
+/*
+ A simple Java program to manage student grades.
+  It allows adding, viewing, updating, and removing students.
+    The program uses an ArrayList to store student objects.
+    Each student has a name and a grade.
+    The program runs in a loop until the user chooses to exit.
+ */
+
 import java.util.ArrayList;
 import java.util.Scanner;
 

@@ -1,5 +1,13 @@
 package IntermiateTopic;
 
+// Inventory Management System in Java
+// This program allows users to add, view, update, and delete products in an inventory.
+// It uses a HashMap to store product information, where the key is the product ID and the value is a Product object.
+// The Product class contains the product name and ID.
+// The program provides a simple command-line interface for user interaction.
+// The user can choose from a menu of options to perform various operations on the inventory.
+// The program continues to run until the user chooses to exit.
+// The program is designed to be simple and easy to understand, making it suitable for beginners learning Java.
 import java.util.HashMap;
 import java.util.Scanner;
 
@@ -51,7 +59,7 @@ public class InventoryManagementSystem {
         Product product = new Product();
         System.out.print("Enter Product ID: ");
         product.productID = scanner.nextInt();
-        scanner.nextLine(); // Consume newline
+        scanner.nextLine();
         System.out.print("Enter Product Name: ");
         product.name = scanner.nextLine();
         inventory.put(product.productID, product);
